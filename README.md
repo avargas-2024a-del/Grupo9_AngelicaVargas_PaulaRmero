@@ -93,7 +93,7 @@ Este proyecto está bajo la licencia **MIT**, lo que permite su uso, modificaci�
 
 ---
 
-## 🌍 **Créditos finales**
+## 🌍 **resumen**
 📚 *Universidad — Programa de Ingeniería Mecatrónica*  
 👩‍💻 *Asignatura:* **Programación Avanzada**  
 👨‍🏫 *Docente:* **Julián Andrés Qimbayo**  
@@ -102,7 +102,6 @@ Este proyecto está bajo la licencia **MIT**, lo que permite su uso, modificaci�
 
 ---
 
-✨ *“El código bien escrito no solo resuelve problemas, también cuenta una historia de lógica, esfuerzo y pasión por aprender.”* 💫
 
 ---
 
