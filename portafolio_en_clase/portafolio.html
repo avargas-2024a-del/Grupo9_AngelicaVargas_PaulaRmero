@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio CV - Angélica Vargas Zambrano</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles-portafolio.css">
+</head>
+<body>
+    <!--==========================
+    BARRA DE NAVEGACIÓN
+    =============================-->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="#inicio">
+                <i class="fas fa-chart-scatter"></i> Angélica <span>.Data</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#inicio" class="nav-link active">Inicio</a></li>
+                    <li class="nav-item"><a href="#acerca" class="nav-link">Acerca de mí</a></li>
+                    <li class="nav-item"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                    <li class="nav-item"><a href="#experiencia" class="nav-link">Experiencia</a></li>
+                    <li class="nav-item"><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                    <li class="nav-item"><a href="#educacion" class="nav-link">Educación</a></li>
+                    <li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--==========================
+    SECCIÓN HÉROE
+    =============================-->
+    <section class="hero" id="inicio">
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content container">
+            <svg class="hero-image" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1a1a2e"/>
+                        <stop offset="100%" style="stop-color:#16213e"/>
+                    </linearGradient>
+                </defs>
+                <rect width="200" height="200" fill="url(#avatarGrad)" rx="100"/>
+                <circle cx="100" cy="72" r="36" fill="#e8d5b7"/>
+                <ellipse cx="100" cy="148" rx="52" ry="46" fill="#e8d5b7"/>
+                <circle cx="100" cy="72" r="30" fill="#c9a87c"/>
+                <ellipse cx="100" cy="64" rx="20" ry="22" fill="#8b5e3c"/>
+                <!-- Hair -->
+                <path d="M68,72 Q70,45 100,42 Q130,45 132,72 Q128,55 100,52 Q72,55 68,72Z" fill="#3d2314"/>
+                <path d="M68,72 Q62,85 65,100 Q68,75 100,72 Q132,75 135,100 Q138,85 132,72Z" fill="#3d2314"/>
+            </svg>
+            <div class="hero-badge">Científica de Datos</div>
+            <h1>Angélica Vargas<br><span class="hero-lastname">Zambrano</span></h1>
+            <p class="description">
+                Apasionada por transformar datos en información valiosa.
+                Con experiencia en análisis de datos, modelado predictivo y visualización.
+                Mi objetivo es ayudar a las empresas a tomar decisiones informadas basadas en datos.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item"><span class="stat-number" data-target="5">0</span><span class="stat-label">Años Exp.</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat-item"><span class="stat-number" data-target="30">0</span><span class="stat-label">Proyectos</span></div>
+                <div class="stat-divider"></div>
+                <div class="stat-item"><span class="stat-number" data-target="15">0</span><span class="stat-label">Clientes</span></div>
+            </div>
+            <div class="hero-btns">
+                <a href="#contacto" class="btn btn-primary-custom">Contáctame</a>
+                <a href="#proyectos" class="btn btn-outline-custom">Ver Proyectos</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN ACERCA DE MÍ
+    =============================-->
+    <section class="section-about" id="acerca">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Conóceme</span>
+                <h2 class="section-title">Acerca de Mí</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="row align-items-center g-5 mt-2">
+                <div class="col-lg-5">
+                    <div class="about-visual">
+                        <div class="about-card-main">
+                            <div class="about-icon-wrap"><i class="fas fa-brain"></i></div>
+                            <h4>Angélica Vargas Zambrano</h4>
+                            <p>Científica de Datos Senior</p>
+                            <div class="about-info-list">
+                                <div class="about-info-item"><i class="fas fa-map-marker-alt"></i> Bogotá, Colombia</div>
+                                <div class="about-info-item"><i class="fas fa-envelope"></i> angelica@datos.co</div>
+                                <div class="about-info-item"><i class="fas fa-phone"></i> +57 310 000 0000</div>
+                                <div class="about-info-item"><i class="fab fa-linkedin"></i> linkedin.com/in/angelicavargas</div>
+                            </div>
+                        </div>
+                        <div class="about-deco-circle"></div>
+                        <div class="about-deco-dots"></div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="about-text">
+                        <p class="about-lead">
+                            Soy una Científica de Datos con más de <strong>5 años de experiencia</strong> convirtiendo conjuntos de datos complejos en estrategias de negocio claras y accionables.
+                        </p>
+                        <p>
+                            Mi trabajo abarca desde el procesamiento y limpieza de datos hasta la construcción de modelos de machine learning y su despliegue en producción. Me especializo en encontrar patrones ocultos que generan valor real para las organizaciones.
+                        </p>
+                        <p>
+                            Combino habilidades técnicas sólidas con una comunicación efectiva, lo que me permite traducir resultados complejos en lenguaje de negocio comprensible para todos los niveles de la organización.
+                        </p>
+                        <div class="about-qualities">
+                            <div class="quality-chip"><i class="fas fa-check-circle"></i> Pensamiento analítico</div>
+                            <div class="quality-chip"><i class="fas fa-check-circle"></i> Trabajo en equipo</div>
+                            <div class="quality-chip"><i class="fas fa-check-circle"></i> Comunicación efectiva</div>
+                            <div class="quality-chip"><i class="fas fa-check-circle"></i> Aprendizaje continuo</div>
+                        </div>
+                        <a href="#" class="btn-download"><i class="fas fa-download"></i> Descargar CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN HABILIDADES
+    =============================-->
+    <section class="section-skills" id="habilidades">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Mi Stack</span>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="row g-4 mt-3">
+                <!-- Lenguajes -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <i class="fas fa-code"></i>
+                            <h4>Lenguajes de Programación</h4>
+                        </div>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>Python</span><span>95%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="95"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>R</span><span>80%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="80"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>SQL</span><span>90%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="90"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>Scala</span><span>60%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="60"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ML/AI -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <i class="fas fa-robot"></i>
+                            <h4>Machine Learning & AI</h4>
+                        </div>
+                        <div class="skill-bars">
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>Scikit-learn</span><span>92%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="92"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>TensorFlow / Keras</span><span>78%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="78"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>PyTorch</span><span>70%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="70"></div></div>
+                            </div>
+                            <div class="skill-bar-item">
+                                <div class="skill-bar-label"><span>XGBoost / LightGBM</span><span>88%</span></div>
+                                <div class="skill-bar-track"><div class="skill-bar-fill" data-width="88"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Visualización -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <i class="fas fa-chart-bar"></i>
+                            <h4>Visualización de Datos</h4>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Power BI</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Tableau</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Matplotlib</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Seaborn</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Plotly</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> D3.js</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Looker Studio</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Big Data -->
+                <div class="col-lg-6">
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <i class="fas fa-database"></i>
+                            <h4>Big Data & Cloud</h4>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Apache Spark</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> AWS SageMaker</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Google BigQuery</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Azure ML</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Docker</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Airflow</span>
+                            <span class="skill-tag"><i class="fas fa-circle-dot"></i> Kafka</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN EXPERIENCIA
+    =============================-->
+    <section class="section-experience" id="experiencia">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Trayectoria</span>
+                <h2 class="section-title">Experiencia Profesional</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline mt-5">
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 — Presente</div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h4>Científica de Datos Senior</h4>
+                                <p class="timeline-company"><i class="fas fa-building"></i> TechCorp Analytics · Bogotá</p>
+                            </div>
+                            <span class="timeline-badge">Actual</span>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Lideré el desarrollo de modelos predictivos que redujeron la tasa de churn en un <strong>23%</strong>.</li>
+                            <li>Diseñé pipelines de datos automatizados procesando más de <strong>10 millones de registros diarios</strong>.</li>
+                            <li>Implementé dashboards en Power BI utilizados por la dirección ejecutiva para decisiones estratégicas.</li>
+                        </ul>
+                        <div class="timeline-techs">
+                            <span>Python</span><span>AWS</span><span>Power BI</span><span>Spark</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2020 — 2022</div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h4>Analista de Datos</h4>
+                                <p class="timeline-company"><i class="fas fa-building"></i> FinSight Colombia · Medellín</p>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Desarrollé modelos de scoring crediticio aumentando la precisión de aprobación en <strong>18%</strong>.</li>
+                            <li>Automaticé reportes semanales ahorrando <strong>15 horas</strong> de trabajo manual mensual.</li>
+                            <li>Realicé análisis de fraude identificando patrones sospechosos con un recall del 91%.</li>
+                        </ul>
+                        <div class="timeline-techs">
+                            <span>Python</span><span>SQL</span><span>Tableau</span><span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2018 — 2020</div>
+                    <div class="timeline-card">
+                        <div class="timeline-card-header">
+                            <div>
+                                <h4>Junior Data Scientist</h4>
+                                <p class="timeline-company"><i class="fas fa-building"></i> StartupData · Cali</p>
+                            </div>
+                        </div>
+                        <ul class="timeline-list">
+                            <li>Participé en proyectos de NLP para análisis de sentimientos en redes sociales.</li>
+                            <li>Construí modelos de recomendación para e-commerce mejorando CTR en un <strong>12%</strong>.</li>
+                            <li>Colaboré en la migración de procesos ETL a la nube con Google BigQuery.</li>
+                        </ul>
+                        <div class="timeline-techs">
+                            <span>R</span><span>Python</span><span>BigQuery</span><span>TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN PROYECTOS
+    =============================-->
+    <section class="section-projects" id="proyectos">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Portafolio</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-filter text-center mt-4">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="viz">Visualización</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+            </div>
+            <div class="row g-4 mt-2" id="projects-grid">
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="ml">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#1a1a2e,#16213e);">
+                            <i class="fas fa-chart-line project-icon"></i>
+                            <span class="project-cat-badge">ML</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Predicción de Churn Bancario</h5>
+                            <p>Modelo de clasificación con XGBoost para predecir abandono de clientes en entidad financiera colombiana. Precisión del 94%.</p>
+                            <div class="project-techs">
+                                <span>Python</span><span>XGBoost</span><span>SHAP</span><span>AWS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="viz">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#0f3443,#34e89e);">
+                            <i class="fas fa-map-marked-alt project-icon"></i>
+                            <span class="project-cat-badge">VIZ</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Dashboard Geoespacial COVID-19</h5>
+                            <p>Visualización interactiva de la propagación del COVID-19 en Colombia con datos del DANE. Más de 5.000 usuarios únicos.</p>
+                            <div class="project-techs">
+                                <span>Python</span><span>Plotly Dash</span><span>Pandas</span><span>GeoJSON</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="nlp">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#4a00e0,#8e2de2);">
+                            <i class="fas fa-comments project-icon"></i>
+                            <span class="project-cat-badge">NLP</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Análisis de Sentimientos en Twitter</h5>
+                            <p>Pipeline de NLP para analizar sentimientos sobre marcas colombianas en tiempo real usando BERT en español.</p>
+                            <div class="project-techs">
+                                <span>BERT</span><span>HuggingFace</span><span>Kafka</span><span>MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="ml">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#f7971e,#ffd200);">
+                            <i class="fas fa-shopping-cart project-icon"></i>
+                            <span class="project-cat-badge">ML</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Sistema de Recomendación E-commerce</h5>
+                            <p>Motor de recomendación colaborativo para tienda online. Incrementó el ticket promedio en un 17% en producción.</p>
+                            <div class="project-techs">
+                                <span>Python</span><span>Surprise</span><span>FastAPI</span><span>Redis</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="viz">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#11998e,#38ef7d);">
+                            <i class="fas fa-leaf project-icon"></i>
+                            <span class="project-cat-badge">VIZ</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Monitoreo Ambiental Bogotá</h5>
+                            <p>Dashboard en tiempo real para monitorear calidad del aire y agua en Bogotá usando datos abiertos del DADEP.</p>
+                            <div class="project-techs">
+                                <span>Power BI</span><span>Python</span><span>Azure</span><span>IoT Hub</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 project-item" data-category="nlp">
+                    <div class="project-card reveal">
+                        <div class="project-card-img" style="background: linear-gradient(135deg,#e96c5a,#c94b4b);">
+                            <i class="fas fa-file-medical project-icon"></i>
+                            <span class="project-cat-badge">NLP</span>
+                        </div>
+                        <div class="project-card-body">
+                            <h5>Clasificación de Registros Médicos</h5>
+                            <p>Modelo de clasificación automática de diagnósticos médicos en texto libre. Desplegado en clínica de Medellín.</p>
+                            <div class="project-techs">
+                                <span>spaCy</span><span>BERT</span><span>Docker</span><span>Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#"><i class="fab fa-github"></i> Código</a>
+                                <a href="#"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN EDUCACIÓN
+    =============================-->
+    <section class="section-education" id="educacion">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Formación</span>
+                <h2 class="section-title">Educación & Certificaciones</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="row g-4 mt-4">
+                <!-- Educación formal -->
+                <div class="col-lg-6">
+                    <h5 class="edu-col-title"><i class="fas fa-graduation-cap"></i> Formación Académica</h5>
+                    <div class="edu-card reveal">
+                        <div class="edu-icon"><i class="fas fa-university"></i></div>
+                        <div class="edu-info">
+                            <h6>Maestría en Ciencia de Datos</h6>
+                            <p class="edu-institution">Universidad de los Andes — Bogotá</p>
+                            <span class="edu-year">2019 — 2021</span>
+                            <p class="edu-desc">Tesis: Modelos de Deep Learning para predicción de series de tiempo financieras. Distinción Cum Laude.</p>
+                        </div>
+                    </div>
+                    <div class="edu-card reveal">
+                        <div class="edu-icon"><i class="fas fa-university"></i></div>
+                        <div class="edu-info">
+                            <h6>Ingeniería de Sistemas</h6>
+                            <p class="edu-institution">Universidad Nacional de Colombia — Bogotá</p>
+                            <span class="edu-year">2013 — 2018</span>
+                            <p class="edu-desc">Énfasis en inteligencia artificial y bases de datos. Grado con Mención de Honor.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Certificaciones -->
+                <div class="col-lg-6">
+                    <h5 class="edu-col-title"><i class="fas fa-certificate"></i> Certificaciones</h5>
+                    <div class="certs-grid">
+                        <div class="cert-card reveal">
+                            <div class="cert-logo aws"><i class="fab fa-aws"></i></div>
+                            <div class="cert-info">
+                                <h6>AWS Certified Machine Learning Specialty</h6>
+                                <span>Amazon Web Services · 2023</span>
+                            </div>
+                        </div>
+                        <div class="cert-card reveal">
+                            <div class="cert-logo google"><i class="fab fa-google"></i></div>
+                            <div class="cert-info">
+                                <h6>Professional Data Engineer</h6>
+                                <span>Google Cloud · 2022</span>
+                            </div>
+                        </div>
+                        <div class="cert-card reveal">
+                            <div class="cert-logo tf"><i class="fas fa-brain"></i></div>
+                            <div class="cert-info">
+                                <h6>TensorFlow Developer Certificate</h6>
+                                <span>TensorFlow · 2021</span>
+                            </div>
+                        </div>
+                        <div class="cert-card reveal">
+                            <div class="cert-logo ms"><i class="fab fa-microsoft"></i></div>
+                            <div class="cert-info">
+                                <h6>Azure Data Scientist Associate</h6>
+                                <span>Microsoft · 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    SECCIÓN CONTACTO
+    =============================-->
+    <section class="section-contact" id="contacto">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Trabajemos juntos</span>
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="row g-5 mt-2 align-items-start">
+                <div class="col-lg-5">
+                    <div class="contact-info">
+                        <p class="contact-lead">¿Tienes un proyecto en mente o quieres saber más sobre mi trabajo? Escríbeme, estaré encantada de conversar.</p>
+                        <div class="contact-items">
+                            <div class="contact-item">
+                                <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+                                <div>
+                                    <span>Email</span>
+                                    <p>angelica@datos.co</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+                                <div>
+                                    <span>Teléfono</span>
+                                    <p>+57 310 000 0000</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-item-icon"><i class="fas fa-map-marker-alt"></i></div>
+                                <div>
+                                    <span>Ubicación</span>
+                                    <p>Bogotá, Colombia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-btn github"><i class="fab fa-github"></i></a>
+                            <a href="#" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-btn kaggle"><i class="fas fa-chart-bar"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contact-form-wrap">
+                        <div id="form-success" class="form-success-msg" style="display:none;">
+                            <i class="fas fa-check-circle"></i>
+                            <p>¡Mensaje enviado! Me pondré en contacto pronto.</p>
+                        </div>
+                        <div id="contact-form-container">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group-custom">
+                                        <input type="text" id="nombre" placeholder=" " class="form-input-custom" required>
+                                        <label for="nombre">Tu nombre</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group-custom">
+                                        <input type="email" id="email" placeholder=" " class="form-input-custom" required>
+                                        <label for="email">Tu email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group-custom">
+                                        <input type="text" id="asunto" placeholder=" " class="form-input-custom" required>
+                                        <label for="asunto">Asunto</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group-custom">
+                                        <textarea id="mensaje" rows="5" placeholder=" " class="form-input-custom form-textarea-custom" required></textarea>
+                                        <label for="mensaje">Tu mensaje</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button id="send-btn" class="btn-send" type="button">
+                                        <span id="btn-text"><i class="fas fa-paper-plane"></i> Enviar Mensaje</span>
+                                        <span id="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Enviando...</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--==========================
+    FOOTER
+    =============================-->
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="footer-name">Angélica Vargas Zambrano</p>
+            <p class="footer-sub">Científica de Datos · Bogotá, Colombia</p>
+            <div class="footer-links">
+                <a href="#inicio">Inicio</a>
+                <a href="#acerca">Acerca</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#contacto">Contacto</a>
+            </div>
+            <p class="footer-copy">© 2025 Angélica Vargas Zambrano. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" title="Volver arriba"><i class="fas fa-chevron-up"></i></button>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="scripts-portafolio.js"></script>
+</body>
+</html>
